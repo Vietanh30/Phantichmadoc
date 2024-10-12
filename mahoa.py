@@ -26,7 +26,7 @@ def decrypt_file(file_path):
         fp.write(_data)
     os.remove(file_path)
 
-directory = "D:/test"
+directory = "C:/Test"
 
 list_file = os.walk(directory)
 for root, _, files in list_file:
